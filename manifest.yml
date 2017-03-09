@@ -1,0 +1,9 @@
+---
+applications:
+- name: wrapper-telefonica
+  command: npm start
+  path: .
+  memory: 500M
+  instances: 1
+env:
+    NPM_CONFIG_PRODUCTION: false
